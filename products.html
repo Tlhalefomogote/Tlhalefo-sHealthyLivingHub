@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Products - Tlhalefo's Healthy Living Hub</title>
+    <meta name="description" content="Discover our premium wellness products at Tlhalefo's Healthy Living Hub - From traditional African superfoods to modern health supplements.">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/logo.jpg" alt="Tlhalefo's Healthy Living Hub Logo" width="60" height="60" class="rounded-circle border border-success">
+                <div class="ml-2">
+                    <span class="d-block">Tlhalefo's</span>
+                    <small class="text-success">Healthy Living Hub</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="page-header products-header">
+        <div class="pattern-overlay"></div>
+        <div class="container">
+            <div class="header-content text-center animate__animated animate__fadeIn">
+                <h1 class="display-4">Our Products</h1>
+                <div class="subtitle-wrapper">
+                    <span class="subtitle-accent left"></span>
+                    <p class="lead">"Nurturing Health, Inspiring Lives"</p>
+                    <span class="subtitle-accent right"></span>
+                </div>
+                <p class="mt-3">Discover our curated collection of premium wellness products</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Categories -->
+    <section class="product-categories py-5">
+        <div class="container">
+            <div class="category-filters text-center mb-5">
+                <button class="btn btn-outline-success active" data-filter="all">All Products</button>
+                <button class="btn btn-outline-success" data-filter="superfoods">Superfoods</button>
+                <button class="btn btn-outline-success" data-filter="supplements">Supplements</button>
+                <button class="btn btn-outline-success" data-filter="skincare">Skincare</button>
+                <button class="btn btn-outline-success" data-filter="fitness">Fitness</button>
+            </div>
+
+            <div class="row">
+                <!-- Superfoods Category -->
+                <div class="col-md-4 mb-4 product-item" data-category="superfoods">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <img src="images/moringa.jpg" alt="Moringa Powder" class="img-fluid">
+                            <span class="product-badge">Best Seller</span>
+                        </div>
+                        <div class="product-content p-4">
+                            <h3>Moringa Powder</h3>
+                            <p class="text-muted">Pure organic moringa leaf powder, rich in vitamins and minerals</p>
+                            <div class="product-meta">
+                                <span class="price">P150</span>
+                                <span class="weight">/ 100g</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-success btn-block mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 product-item" data-category="superfoods">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <img src="images/baobab powder.jpg" alt="Baobab Powder" class="img-fluid">
+                        </div>
+                        <div class="product-content p-4">
+                            <h3>Baobab Powder</h3>
+                            <p class="text-muted">Nutrient-rich baobab fruit powder, high in vitamin C</p>
+                            <div class="product-meta">
+                                <span class="price">P180</span>
+                                <span class="weight">/ 100g</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-success btn-block mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Supplements Category -->
+                <div class="col-md-4 mb-4 product-item" data-category="supplements">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <img src="images/plant protein.jpg" alt="Plant Protein" class="img-fluid">
+                            <span class="product-badge">New</span>
+                        </div>
+                        <div class="product-content p-4">
+                            <h3>Plant Protein Blend</h3>
+                            <p class="text-muted">Complete plant-based protein powder with essential amino acids</p>
+                            <div class="product-meta">
+                                <span class="price">P450</span>
+                                <span class="weight">/ 500g</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-success btn-block mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skincare Category -->
+                <div class="col-md-4 mb-4 product-item" data-category="skincare">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <img src="images/marula oil.jpg" alt="Marula Oil" class="img-fluid">
+                        </div>
+                        <div class="product-content p-4">
+                            <h3>Marula Oil</h3>
+                            <p class="text-muted">Pure cold-pressed marula oil for radiant skin</p>
+                            <div class="product-meta">
+                                <span class="price">P280</span>
+                                <span class="weight">/ 50ml</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-success btn-block mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fitness Category -->
+                <div class="col-md-4 mb-4 product-item" data-category="fitness">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <img src="images/yoga mats.jpg" alt="Yoga Mat" class="img-fluid">
+                        </div>
+                        <div class="product-content p-4">
+                            <h3>Eco Yoga Mat</h3>
+                            <p class="text-muted">Sustainable yoga mat made from natural rubber</p>
+                            <div class="product-meta">
+                                <span class="price">P350</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-success btn-block mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 product-item" data-category="supplements">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <img src="images/vitamin d3.jpg" alt="Vitamin D" class="img-fluid">
+                        </div>
+                        <div class="product-content p-4">
+                            <h3>Vitamin D3</h3>
+                            <p class="text-muted">High-potency vitamin D3 supplement for immune support</p>
+                            <div class="product-meta">
+                                <span class="price">P220</span>
+                                <span class="weight">/ 60 capsules</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-success btn-block mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 product-item" data-category="superfoods">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <img src="images/phane.jpg" alt="Phane" class="img-fluid">
+                        </div>
+                        <div class="product-content p-4">
+                            <h3>Phane</h3>
+                            <p class="text-muted">Traditional edible caterpillar, rich in protein</p>
+                            <div class="product-meta">
+                                <span class="price">P200</span>
+                                <span class="weight">/ 100g</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-success btn-block mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 product-item" data-category="superfoods">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <img src="images/raw-honey.jpg" alt="Raw Honey" class="img-fluid">
+                        </div>
+                        <div class="product-content p-4">
+                            <h3>Raw Honey</h3>
+                            <p class="text-muted">Pure, unprocessed honey with natural health benefits</p>
+                            <div class="product-meta">
+                                <span class="price">P250</span>
+                                <span class="weight">/ 250g</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-success btn-block mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 product-item" data-category="superfoods">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <img src="images/sengaparile.jpg" alt="Sengaparile" class="img-fluid">
+                        </div>
+                        <div class="product-content p-4">
+                            <h3>Sengaparile</h3>
+                            <p class="text-muted">Traditional herb known for its medicinal properties</p>
+                            <div class="product-meta">
+                                <span class="price">P180</span>
+                                <span class="weight">/ 50g</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-success btn-block mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 product-item" data-category="superfoods">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <img src="images/mosukujane.jpg" alt="Mosukujane" class="img-fluid">
+                        </div>
+                        <div class="product-content p-4">
+                            <h3>Mosukujane</h3>
+                            <p class="text-muted">Traditional herb used for its healing properties</p>
+                            <div class="product-meta">
+                                <span class="price">P150</span>
+                                <span class="weight">/ 50g</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-success btn-block mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 product-item" data-category="superfoods">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <img src="images/morama.jpg" alt="Morama" class="img-fluid">
+                        </div>
+                        <div class="product-content p-4">
+                            <h3>Morama</h3>
+                            <p class="text-muted">Nutrient-rich traditional food, high in protein</p>
+                            <div class="product-meta">
+                                <span class="price">P220</span>
+                                <span class="weight">/ 100g</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-success btn-block mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-features py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card text-center">
+                        <i class="fas fa-leaf fa-3x text-success mb-3"></i>
+                        <h3>100% Natural</h3>
+                        <p>All our products are sourced from natural ingredients, free from artificial additives.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card text-center">
+                        <i class="fas fa-certificate fa-3x text-success mb-3"></i>
+                        <h3>Quality Assured</h3>
+                        <p>Every product undergoes rigorous quality testing to ensure the highest standards.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card text-center">
+                        <i class="fas fa-truck fa-3x text-success mb-3"></i>
+                        <h3>Fast Delivery</h3>
+                        <p>Quick and reliable delivery across Botswana with secure packaging.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-success text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="footer-brand">
+                        <img src="images/logo.jpg" alt="Tlhalefo's Healthy Living Hub Logo" class="footer-logo mb-3">
+                        <p class="motto">"Nurturing Health, Inspiring Lives"</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links mb-3">
+                        <a href="#" class="text-white mx-2"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-white mx-2"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-white mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
+                    </div>
+                    <p class="mb-0">Email: info@healthylivinghub.com</p>
+                    <p>Phone: +267 76682425</p>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Tlhalefo's Healthy Living Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Product filtering
+        $(document).ready(function() {
+            $('.category-filters button').click(function() {
+                $('.category-filters button').removeClass('active');
+                $(this).addClass('active');
+                
+                const filter = $(this).data('filter');
+                
+                if (filter === 'all') {
+                    $('.product-item').show();
+                } else {
+                    $('.product-item').hide();
+                    $('.product-item[data-category="' + filter + '"]').show();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
