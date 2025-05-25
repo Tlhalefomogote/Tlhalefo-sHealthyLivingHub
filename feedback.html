@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Feedback - Tlhalefo's Healthy Living Hub</title>
+    <meta name="description" content="Share your experience with Tlhalefo's Healthy Living Hub. Your feedback helps us improve our services and better serve our community.">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/logo.jpg" alt="Tlhalefo's Healthy Living Hub Logo" width="60" height="60" class="rounded-circle border border-success">
+                <div class="ml-2">
+                    <span class="d-block">Tlhalefo's</span>
+                    <small class="text-success">Healthy Living Hub</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header feedback-header">
+        <div class="pattern-overlay"></div>
+        <div class="container">
+            <div class="header-content text-center animate__animated animate__fadeIn">
+                <h1 class="display-4">Share Your Experience</h1>
+                <div class="subtitle-wrapper">
+                    <span class="subtitle-accent left"></span>
+                    <p class="lead">Your Feedback Helps Us Grow</p>
+                    <span class="subtitle-accent right"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="feedback-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="feedback-form animate__animated animate__fadeInUp">
+                        <form id="feedbackForm">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Service Used</label>
+                                <select class="form-control" id="service" required>
+                                    <option value="">Select a service</option>
+                                    <option value="nutrition">Nutrition Consultation</option>
+                                    <option value="fitness">Fitness Training</option>
+                                    <option value="wellness">Wellness Coaching</option>
+                                    <option value="products">Products</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Overall Experience</label>
+                                <div class="rating-stars">
+                                    <div class="star-rating">
+                                        <input type="radio" id="star5" name="rating" value="5" required>
+                                        <label for="star5"><i class="fas fa-star"></i></label>
+                                        <input type="radio" id="star4" name="rating" value="4">
+                                        <label for="star4"><i class="fas fa-star"></i></label>
+                                        <input type="radio" id="star3" name="rating" value="3">
+                                        <label for="star3"><i class="fas fa-star"></i></label>
+                                        <input type="radio" id="star2" name="rating" value="2">
+                                        <label for="star2"><i class="fas fa-star"></i></label>
+                                        <input type="radio" id="star1" name="rating" value="1">
+                                        <label for="star1"><i class="fas fa-star"></i></label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="feedback">Your Feedback</label>
+                                <textarea class="form-control" id="feedback" rows="5" required 
+                                    placeholder="Please share your experience with us..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="improvements">Suggestions for Improvement</label>
+                                <textarea class="form-control" id="improvements" rows="3" 
+                                    placeholder="How can we make our services better?"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="permission" required>
+                                    <label class="custom-control-label" for="permission">
+                                        I agree to share my feedback for service improvement
+                                    </label>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-success btn-lg btn-block">
+                                <i class="fas fa-paper-plane mr-2"></i>Submit Feedback
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-success text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="footer-brand">
+                        <img src="images/logo.jpg" alt="Tlhalefo's Healthy Living Hub Logo" class="footer-logo mb-3">
+                        <p class="motto">"Nurturing Health, Inspiring Lives"</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links mb-3">
+                        <a href="#" class="text-white mx-2"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-white mx-2"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-white mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
+                    </div>
+                    <p class="mb-0">Email: info@tlhalefoshealthylivinghub.com</p>
+                    <p>Phone: +267 76682425</p>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Tlhalefo's Healthy Living Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script>
+        // Star rating hover effect
+        document.querySelectorAll('.star-rating label').forEach(label => {
+            label.addEventListener('mouseover', function() {
+                this.classList.add('hover');
+                let prev = this.previousElementSibling;
+                while (prev) {
+                    if (prev.tagName === 'LABEL') {
+                        prev.classList.add('hover');
+                    }
+                    prev = prev.previousElementSibling;
+                }
+            });
+
+            label.addEventListener('mouseout', function() {
+                document.querySelectorAll('.star-rating label').forEach(l => {
+                    l.classList.remove('hover');
+                });
+            });
+        });
+
+        // Form submission
+        document.getElementById('feedbackForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Here you would typically send the form data to your server
+            alert('Thank you for your feedback! We appreciate your input.');
+            this.reset();
+        });
+    </script>
+</body>
+</html> 
